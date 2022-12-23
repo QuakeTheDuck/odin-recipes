@@ -1,0 +1,42 @@
+*{
+  font-family: 'Atkinson Hyperlegible', Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  text-align: center;
+  border: 1px solid transparent;
+  
+}
+
+.UnorderedLists, .OrderedLists {
+  display: table;
+  margin: 0 auto;
+  list-style-position: outside;
+}
+
+.UnorderedLists li, .OrderedLists li {
+  text-align: left;
+}
+
+.UnorderedLists {
+  list-style-type: square;
+}
+.Selectable:hover {
+  border:  solid 1px black;
+  background-color: white;
+  filter: brightness(85%);
+}
+
+.Headers{
+  font-size: 40px;
+  color: black;
+}
+
+.grid {
+  text-align: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+#img {
+  width: clamp(200px, 50%, 600px);
+}
